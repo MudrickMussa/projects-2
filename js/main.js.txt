@@ -1,4 +1,7 @@
 function My_First_Function() {
-   var str = "This text is green!";
-   var result = str.fontcolor("green");
-   document.getElementById("green_Text").onnerHTML = results;
+    var sentence = "I am eating";
+	sentence += " a lot these days!";
+	document.getElementById("concatenarte").innerHTML = sentence;
+	}
+	
+   
