@@ -3,5 +3,12 @@ function My_First_Function() {
 	sentence += " a lot these days!";
 	document.getElementById("concatenarte").innerHTML = sentence;
 	}
-	
-   
+<html>
+<head>
+<script type = "text/javascript">
+
+function myfunction() {
+
+alert("how are you");
+       }
+</script>
