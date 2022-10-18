@@ -2,14 +2,17 @@
 <html>
 <body>
 
-<h1 id="myHeader">Hello world!</h1>
-<button onclick="displayResult()">change text</button
+<h2>JavaScript Functions</h2>
+
+<p>This example calls a function which performs a calculation, and returns the result:</p>
+
+<p id="demo"></p>
 
 <script>
-function displayResult() {
-
-document.getElementById("myHeader").innerHTML= "Have a nice day!"; 
+function myFunction(p1, p2) {
+  return p1 * p2;
 }
+document.getElementById("demo").innerHTML = myFunction(2, 3);
 </script>
 
 </body>
