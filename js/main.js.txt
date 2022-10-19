@@ -1,14 +1,6 @@
-function My_First_Function() {
-    var sentence = "I am eating";
-	sentence += " a lot these days!";
-	document.getElementById("concatenarte").innerHTML = sentence;
+function subtraction_Function() {
+    var Subtraction = 4 - 2;
+	document.getElemenById("Math") .innerHTML = "4-2= " + substraction;
+	
 	}
-<html>
-<head>
-<script type = "text/javascript">
-
-function myfunction() {
-
-alert("how are you");
-       }
-</script>
+	
